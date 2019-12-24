@@ -115,6 +115,8 @@ p{
     width: 33%;
     float: left;
     margin: 10px;
+    border: 5px solid grey;
+
 }
 .pic_div img {
     float: left;
@@ -129,6 +131,15 @@ p{
     padding-top: 10px;
     padding-bottom: 10px;
     text-align: center;
+    opacity: 90%;
+}
+
+.projectDesc{
+    font-size: small;
+    text-align: left;
+    padding-left: 10px;
+    margin: 5px 0;
+
 }
 
 .portfolio_links:link{
@@ -148,6 +159,7 @@ p{
 }
 
 
+
 .contact_body{
     clear: both;
     background: #ffffff;
@@ -157,11 +169,17 @@ p{
     margin-bottom: 200px;
 }
 
-#contact_header{
+.contact_header{
     padding-bottom: 25px;
     border-bottom: solid #cccccc;
     color: #4aaaa5;
     font-family: 'Georgia', Times, 'Times New Roman', serif;
+}
+
+.logo{
+    height: 25px;
+    display: inline;
+    padding-left: 10px;
 }
 
 .contact_content{
